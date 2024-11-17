@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: "Poppins", serif
+}
+
+body{
+    background: url(https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width: 300px;
+    background: #1d1e22;
+    padding: 40px 30px 60px 30px;
+    border-radius: 9px;
+    color: white;
+}
+
+form h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+form label{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+form div input{
+    width: 240px;
+    height: 34px;
+    outline: none;
+    padding: 0px 10px;
+    color: #ef3b3a;
+    margin-bottom: 5px;
+}
+
+form input [type="checkbox"]{
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+form span{
+    color: #ef3b3a;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+form button{
+    width: 100%;
+    background: #ef3b3a;
+    padding: 10px 0px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    color: white;
+}

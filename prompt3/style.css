@@ -1,0 +1,276 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: work sans;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.topbox{
+    height: 75%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+    background-color: #f2e4d7;
+}
+
+.nav{
+    height: 10%;
+    background-color: #f2e4d7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.navle{
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+
+.navle h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navle img{
+    height: 26px;
+    border-radius: 50%;
+
+}
+
+.navri{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.navri h4{
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 25px;
+    position: relative;
+}
+
+.navri h4::after{
+    content: "" ;
+    height: 10%;
+    width: 0;
+    position: absolute;
+    background:linear-gradient(to right, #225582, #612c2c);
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease;
+}
+
+.navri h4:hover::after{
+    width: 100%;
+}
+
+.centerle{
+    height: 70%;
+    width: 70%;
+    padding: 40px 40px;
+}
+
+.centerle h1{
+    font-size: 70px;
+    font-weight: 400;   
+    letter-spacing: -1px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1;
+}
+
+.centerle p{
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.centerle div{
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 14%;
+    width: 60%;
+    background-color: white;
+    padding: 5px;
+}
+
+.centerle .input input{
+    padding: 7px;
+    border: none;
+    outline: none;
+}
+
+.centerle .input button{
+    padding: 12px 18px;
+    color: white;
+    background-color: #285044;
+    border: none;
+    font-size: 13px;
+}
+
+.bottomle {
+    margin-top: 30px;
+    padding: 0 30px;
+   
+}
+
+.bottomle p{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.fti{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.elem{
+    padding: 3px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-radius: 50%;
+}
+
+.right{
+    height: 100%;
+    width: 50%;
+    background-color: #ababab;
+}
+
+.rinav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 10%;
+    padding: 30px 40px;
+    gap: 15px;
+}
+
+.rinav .login{
+    background-color: transparent;
+    font-size: 15px;
+    border: none;
+    color: black;
+}
+.rinav .free{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.imgri{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgri img{
+    height: 350px;
+    box-shadow: 0 0 10px black;
+}
+
+.ri-bt{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 50%;
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+
+}
+
+.ri-bt .rating{
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.ri-bt .rating i{
+    color: gold;
+    font-size: 20px;
+}
+
+.rating .num{
+    color: #3434bc;
+    font-weight: 600;
+}
+
+.rating p{
+    color: #f82b06;
+    font-weight: 600;
+}
+
+.rs h1{
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 2px solid red;
+}
+
+.bottom{
+    height: 25%;
+    width: 100%;
+    background:linear-gradient(to left, #304c47 , #3a6d8c);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bottom img{
+    height: 150px;
+    transition: .5s;
+}
+
+.bottom img:hover{
+    transform: scale(1.1);
+}
+
+.bottom h1{
+    font-size: 45px;
+    font-weight: 500;
+    position: relative;
+}
+
+.bottom h1::after{
+    content: "" ;
+    height: 3%;
+    width: 0;
+    position: absolute;
+    background:linear-gradient(to right, #f3d009, #f3dbdb);
+    bottom: 0;
+    left: 0;
+    transition: .8s ease;
+}
+
+.bottom h1:hover::after{
+    width: 100%;
+}
+

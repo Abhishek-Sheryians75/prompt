@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: work-sans;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#c1b6ee, #c7c7ee);
+}
+
+header{
+    height: 30%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+header h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 550;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #343333;
+    margin-bottom: 25px;
+}
+
+.select{
+    width: 450px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 1px;
+}
+
+.select h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: #8d32dc;
+    color: white;
+    width: 50%;
+    height: 90%;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.select h6{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    height: 90%;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center{
+    height: 70%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.box1, .box2,.box3{
+    height: 100%;
+    width: 21%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.box3{
+    background: linear-gradient(#a889ec, #efedf1);
+}
+
+.box1 .upper, .upper1, .upper2{
+    height: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box2 .upper1{
+    height: 30%;
+}
+
+.box3 .upper2{
+    height: 34%;
+}
+.pro h5,
+.pro-line h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 15px;
+    background-color: #8d32dc;
+    display: inline-block;
+    color: white;
+    border-radius: 10px;
+}
+
+.custom h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #fff;
+    display: inline-block;
+    padding: 8px 18px;
+    border-radius: 15px;
+    font-weight: 750;
+}
+
+.pro p,
+.pro-line p,
+.custom p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 1.3;
+    margin-top: 10px;
+    color: #686666;
+}
+
+.custom p{
+    line-height: 1.4;
+}
+
+.price h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+}
+
+.price span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #686666;
+}
+
+.midle, .midle1, .midle2{
+    margin-top: 10px;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5px;
+    border: 1px solid #b2b5b5;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.midle1{
+    height: 57%;
+}
+
+.midle2{
+    height: 53%;
+    border: 1px solid #868989;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.midle p,
+.midle1 p,
+.midle2 p{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.midle2 p{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.midle i,
+.midle1 i,
+.midle2 i{
+    margin-right: 6px;
+    font-size: 18px;
+}
+
+.lower,
+.lower1,
+.lower2{
+    margin: 10px;
+    height: 8%;
+
+}
+
+.lower .get{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 1px solid #b2b5b5;
+    background-color: #fff;
+}
+
+.lower1 .get1{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 1px solid #b2b5b5;
+    background-color: #fff;
+}
+
+.lower2 .call{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: black;
+    color: #c9c6c6;
+    font-weight: 400;
+    border: none;
+}
+

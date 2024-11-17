@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    padding: 20px;
+}
+
+
+.nav{
+    height: 10%;
+    /* background-color: rgb(172, 163, 163); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 80px;
+}
+
+.left{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding-left: 40px;
+}
+
+.left h1{
+    font-size: 40px;
+    font-weight: 550;
+    font-style: italic;
+
+}
+
+.left h1 span{
+    color: orangered;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.right h5{
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #e55d08;
+}
+
+.right button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50px;
+    background-color: orangered;
+    color: white;
+}
+
+.section{
+    height: 70%;
+    background: url(https://images.unsplash.com/photo-1554344728-77cf90d9ed26?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    padding-left: 60px;
+}
+
+.write{
+    height: 70%;
+    width: 32%;
+    /* background-color: red; */
+    margin-bottom: 54px;
+}
+
+.write h1{
+    margin-bottom: 30px;
+    color: white;
+    font-weight: 500;
+}
+
+.write h1 span{
+    color: orangered;
+    font-weight: bold;
+}
+
+.write p{
+    color: white;
+    font-size: 14px;
+    width: 90%;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.write h4{
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.write .sign{
+    font-size: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: orangered;
+    color: white;
+}
+
+.bottom{
+    height: 20%;
+    width: 100%;
+    background-color: #1f90a4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.elem p{
+    color: white;
+}
+

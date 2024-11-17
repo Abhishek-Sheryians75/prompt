@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background: url(https://plus.unsplash.com/premium_photo-1675695700399-d017e858209e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nav{
+    height: 10%;
+    background-color: rgba(0,0,0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    border-bottom: 1px solid grey;
+}
+.navle img{
+    height: 80px;
+}
+
+.navcen{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navcen h5{
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+
+.navri{
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+
+.center{
+    height: 90%;
+    /* background-color: red; */
+    display: flex;
+
+}
+
+.centerle{
+    height: 100%;
+    width: 50%;
+    background-color: rgba(255,255,255, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cenbox{
+    height: 50%;
+    width: 40%;
+    /* border: 1px solid white; */
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+
+.centerle img{
+    height: 60%;
+    transform: rotate(-15deg);
+}
+
+.price{
+    /* color: white; */
+    margin-top: 10px;
+}
+
+.price p{
+    color: orangered;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.price h3 span{
+    color: #888c8c;
+    font-weight: 500;
+}
+
+.price h5{
+    font-size: 40px;
+    color: black;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.centerri{
+    height: 100%;
+    width: 50%;
+    background-color: rgba(255,255,255, 0.7);
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 0px 20px;
+}
+
+.card{
+    height: 550px;
+    width: 450px;
+    background-color: rgba(0,0,0, 0.2);
+    box-shadow: 3px 3px 4px 4px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card .apple{
+    padding: 13px 70px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.pay  i{
+    /* padding: 2px; */
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    margin: 0px 2px;
+}
+
+.pay{
+    padding: 13px 50px;
+    background-color: green;
+    font-size: 15px;
+    font-weight: 550;
+    border-radius: 10px;
+    border: none;
+}
+
+.line{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.line1{
+    height: 1px;
+    width: 120px;
+    background-color: black;
+}
+
+form{
+
+}
+
+.input-fields input{
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+.month input{
+    padding: 10px;
+}
+
+.input-fields select{
+    width: 100%;
+    padding: 10px ;
+}
+
+form .last{
+    width: 100%;
+    margin-top: 10px;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2a2a82;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}

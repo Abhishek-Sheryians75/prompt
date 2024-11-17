@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    background: url(https://images.unsplash.com/photo-1533628635777-112b2239b1c7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fHR3byUyMGJhY2tncm91bmQlMjB3YWxscGFwZXJ8ZW58MHx8MHx8fDA%3D);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    height: 70%;
+    width: 70%;
+    border: 8px solid black;
+    border-radius: 25px;
+    display: flex;
+    overflow: auto;
+}
+
+
+
+.left{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 10px; */
+    border-right: 2px solid black;
+}
+
+.contact{
+    /* border: 1px solid white; */
+    height: 80%;
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contact h1 span{
+    color: rgb(187, 37, 169);
+}
+
+.contact h1 {
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.element{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
+}
+
+.inp input{
+    position: relative;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    outline: none;
+    margin-bottom: 20px; 
+}
+
+.inp label{
+    position: absolute;
+    font-size: 12px;
+}
+
+.inp label:hover{
+    top: -30%;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.email1 input,
+.email2 input{
+    position: relative;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    width: 100%;
+    outline: none;
+    
+}
+
+.email1 label,
+.email2 label{
+    position: absolute;
+    font-size: 12px;
+}
+
+.email1{
+    margin-bottom: 80px;
+}
+
+button{
+    width: 35%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    transition: 0.5s;
+}
+
+button:hover{
+    scale: 1.1;
+    background-color: #e5497a;
+}
+
+.right{
+    height: 100%;
+    width: 50%;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 10px;
+}
+
+.right h4{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.right p{
+    font-size: 20px;
+}
+
+.download{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.download i{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.download p {
+    font-size: 12px;
+}
+

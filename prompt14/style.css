@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+   background-image: url(https://images.unsplash.com/photo-1483375801503-374c5f660610?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+   background-size: cover;
+   background-position: bottom;
+   background-repeat: no-repeat;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.booking-form-box{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.nav{
+    height: 15%;
+    background-color: #e78a09;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 5px solid rgb(145, 134, 134);
+}
+
+.navle{
+    display: flex;
+    align-items: center;
+}
+
+.navle h4{
+    font-size: 35px;
+}
+
+.navle .ri-menu-line{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.navle .ri-flight-takeoff-fill{
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.navri{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    /* background-color: red; */
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+   
+}
+
+.navri .ri-user-3-fill{
+    /* background-color: #fff; */
+    padding: 3px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.container{
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    height: 100%;
+    width: 50%;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.upper{
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #fbc504;
+    position: relative;
+}
+
+.uple {
+    background-image: url(./man-vacation-holding-little-globe-blue_140725-93913-removebg-preview.png);
+    background-size: cover;
+    background-position: center; 
+    height: 80%;
+    width: 35%;
+   
+}
+
+
+.upri h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 7px;
+}
+
+.upri p{
+    color: white;
+    font-size: 13px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.bottom {
+    height: 75%;
+    /* background-color: red; */
+    padding: 20px;
+}
+
+.bottom p{
+    color: red;
+    font-size: 25px;
+}
+
+.trip{
+    height: 10%;
+    /* background-color: yellow; */
+   display: flex;
+   gap: 100px;
+   align-items: center;
+}
+
+.elem span{
+    margin-left: 8px;
+    font-size: 13px;
+    color: #e78a09;
+}
+
+.elem input{
+    border: none;
+    border-inline: none;
+    /* font-size: 10px; */
+}
+
+.booking{
+    margin-top: 20px;
+    height: 80%;
+    /* background-color: green; */
+}
+
+.booking label{
+    color: #e78a09;
+}
+
+.first,
+.sec,
+.third{
+    display: flex;
+    /* gap: 20px; */
+    justify-content: space-between;
+    /* background-color: #fff; */
+}
+
+.sec{
+    margin-top: 20px;
+}
+
+.third{
+    margin-top: 20px;
+}
+
+.form,
+.airline,
+.return{
+    display: flex;
+    flex-direction:column ;
+    width: 40%;
+}
+
+.form select{
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.to,
+.depature,
+.adult{
+    display: flex;
+    flex-direction:column ;
+    width: 40%;
+    height: 60px;
+}
+
+.to select{
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.airline select{
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.depature input{
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+
+.return input{
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.adult input{
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.sub{
+    height: 30%;
+    /* background-color: red; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.submit button{
+    padding: 8px 40px;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    transition: 0.8s;
+}
+
+.submit button:hover{
+    background: linear-gradient(to right, #c8475a, #2e8bd7);
+    color: white;
+}
